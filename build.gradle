@@ -12,6 +12,6 @@ repositories {
 dependencies {
     testImplementation 'junit:junit:4.13.2'
     implementation 'org.seleniumhq.selenium:selenium-java:4.4.0'
-    // https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
+    testImplementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '3.3.0'
     testImplementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.6.1'
 }
