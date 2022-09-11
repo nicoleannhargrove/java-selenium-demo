@@ -34,8 +34,8 @@ public class TestImplementation {
     }
 
     @Test
-    public void verifyGitHubTitle() {
-        driver.get("https://www.github.com");
-        assertThat(driver.getTitle(), containsString("GitHub"));
+    public void verifyWebsiteTitle() {
+        driver.get("https://strategio.tech/");
+        assertThat(driver.getTitle(), containsString("Strategio"));
     }
 }
